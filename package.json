@@ -1,0 +1,26 @@
+
+{
+  "name": "react-native-my-fancy-library",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liyuxian/react-native-my-fancy-library.git"
+  },
+  "author": "",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/liyuxian/react-native-my-fancy-library/issues"
+  },
+  "homepage": "https://github.com/liyuxian/react-native-my-fancy-library#readme",
+  "peerDependencies": {
+    "react-native": "0.59.8"
+  }
+}

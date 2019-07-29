@@ -1,0 +1,8 @@
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.reactlibrary">
+        <activity
+            android:name=".ui.Main2Activity"
+            android:label="@string/title_activity_main2"/>
+</manifest>
+  

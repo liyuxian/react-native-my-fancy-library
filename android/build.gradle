@@ -1,0 +1,40 @@
+
+  buildscript {
+  
+    apply from: './versions.gradle'
+
+    repository(repositories)
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.4.0'
+    }
+
+}
+
+apply plugin: 'com.android.library'
+
+android {
+
+    compileSdkVersion 23
+
+    buildToolsVersion deps.android.buildToolsVersion
+
+    defaultConfig {
+        minSdkVersion deps.android.minSdkVersion
+        targetSdkVersion deps.android.targetSdkVersion
+        versionCode 1
+        versionName "1.0"
+    }
+    lintOptions {
+        abortOnError false
+    }
+}
+allprojects {
+    repository(repositories)
+}
+
+
+dependencies {
+    implementation 'com.facebook.react:react-native:+'
+}
+  
